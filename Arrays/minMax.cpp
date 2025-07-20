@@ -4,6 +4,7 @@ using namespace std;
 
 pair<int, int> miniMaxi(vector<int> arr, int n)
 {
+    // optimised approach : time : O(n), space : O(1)
     int mini = INT_MAX;
     int maxi = INT_MIN;
 
